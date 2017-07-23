@@ -25,8 +25,8 @@ public class McDialogItem {
     /**
      * Classic constructor.
      *
-     * @param icon Icon, which should be shown next to text
-     * @param text Text associated with this item
+     * @param icon         Icon, which should be shown next to text
+     * @param text         Text associated with this item
      * @param optionNumber Identifying number for option linked with this item
      */
     public McDialogItem(Drawable icon, String text, int optionNumber) {

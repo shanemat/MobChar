@@ -22,8 +22,8 @@ public class McSimpleItemAdapter extends McListAdapter {
      * Constructor matching super, which also sets the collection of items,
      * which should be shown and pairs layout, which should be used.
      *
-     * @param context   Application context
-     * @param items     Collection of items, which should be shown
+     * @param context Application context
+     * @param items   Collection of items, which should be shown
      */
     public McSimpleItemAdapter(Context context, @NonNull ArrayList items) {
         super(context, items, R.layout.i_list_simple);

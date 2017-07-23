@@ -13,11 +13,11 @@ public abstract class McHolder {
      * This method should populate this holder with information
      * stored in item passed as parameter.
      *
-     * Note that cast will be necessary and so zyou should first check, that it
+     * Note that cast will be necessary and so you should first check, that it
      * is possible and return in case it's not!
      *
      * @param context Application context
-     * @param item Item holding information, which should be used for populating
+     * @param item    Item holding information, which should be used for populating
      */
     public abstract void populate(Context context, McListItem item);
 }

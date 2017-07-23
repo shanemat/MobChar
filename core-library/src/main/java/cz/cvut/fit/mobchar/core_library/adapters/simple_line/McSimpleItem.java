@@ -7,8 +7,8 @@ import cz.cvut.fit.mobchar.core_library.lists.McListItem;
 /**
  * Created by shanemat (FIT-CTU) on 23.7.2017 as object representing simple list item
  * consisting of:
- *  * one icon
- *  * one text line
+ * * one icon
+ * * one text line
  */
 
 public class McSimpleItem extends McListItem {

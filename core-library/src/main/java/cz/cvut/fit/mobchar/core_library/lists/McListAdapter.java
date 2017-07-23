@@ -29,8 +29,8 @@ public abstract class McListAdapter<Item extends McListItem, Holder extends McHo
      * Constructor matching super, which also sets the collection of items,
      * which should be shown and pairs layout, which should be used.
      *
-     * @param context Application context
-     * @param items Collection of items, which should be shown
+     * @param context  Application context
+     * @param items    Collection of items, which should be shown
      * @param layoutID ID of layout, which should be used for items
      */
     public McListAdapter(Context context, @NonNull ArrayList<Item> items, int layoutID) {
@@ -55,9 +55,9 @@ public abstract class McListAdapter<Item extends McListItem, Holder extends McHo
     /**
      * This method prepares the view of each item, which should be shown.
      *
-     * @param position Position in the list
+     * @param position    Position in the list
      * @param convertView View, which is already inflated and should be only updated
-     * @param parent The parent view, in which the items' views are inflated
+     * @param parent      The parent view, in which the items' views are inflated
      * @return Returns updated View of one item.
      */
     @NonNull
@@ -88,11 +88,6 @@ public abstract class McListAdapter<Item extends McListItem, Holder extends McHo
      */
     public abstract Holder getNewHolder(View convertView);
 
-    /**
-     * Classical setter.
-     *
-     * @param items Items, which should be set
-     */
     public void setItems(ArrayList<Item> items) {
         mItems = items;
     }

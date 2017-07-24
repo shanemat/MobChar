@@ -1,1 +1,1 @@
-include ':core-library'
+include ':core-library', ':core'

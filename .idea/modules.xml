@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MobChar.iml" filepath="$PROJECT_DIR$/MobChar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
       <module fileurl="file://$PROJECT_DIR$/core-library/core-library.iml" filepath="$PROJECT_DIR$/core-library/core-library.iml" />
     </modules>
   </component>

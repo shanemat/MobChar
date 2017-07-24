@@ -1,4 +1,4 @@
-package cz.cvut.fit.mobchar.core_library.activities.interfaces;
+package cz.cvut.fit.mobchar.core_library.interfaces;
 
 /**
  * Created by shanemat (FIT-CTU) on 24.7.2017 as simple interface, which

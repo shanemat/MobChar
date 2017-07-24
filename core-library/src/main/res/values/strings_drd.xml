@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="drd_class_alchemist">Alchemist</string>
+    <string name="drd_class_magician">Magician</string>
+    <string name="drd_class_ranger">Ranger</string>
+    <string name="drd_class_thief">Thief</string>
+    <string name="drd_class_warrior">Warrior</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="drd_class_alchemist">Alchymista</string>
+    <string name="drd_class_magician">Kouzelník</string>
+    <string name="drd_class_ranger">Hraničář</string>
+    <string name="drd_class_thief">Zloděj</string>
+    <string name="drd_class_warrior">Válečník</string>
+</resources>

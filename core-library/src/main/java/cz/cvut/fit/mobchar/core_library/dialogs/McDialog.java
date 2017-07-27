@@ -51,7 +51,7 @@ public abstract class McDialog extends DialogFragment {
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         String cancelText = getString(R.string.cancel);
-        McSimpleItemAdapter adapter = new McSimpleItemAdapter(getActivity(), mItems);
+        McSimpleItemAdapter adapter = new McSimpleItemAdapter<>(getActivity(), mItems);
 
         return new AlertDialog.Builder(getActivity())
                 .setTitle(mTitle)

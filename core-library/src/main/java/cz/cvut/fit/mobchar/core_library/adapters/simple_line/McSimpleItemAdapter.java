@@ -16,7 +16,7 @@ import cz.cvut.fit.mobchar.core_library.lists.McListAdapter;
  * lists with simple list items (one icon and one text line).
  */
 
-public class McSimpleItemAdapter extends McListAdapter {
+public class McSimpleItemAdapter<Item extends McSimpleItem> extends McListAdapter<Item, McHolder> {
 
     /**
      * Constructor matching super, which also sets the collection of items,
@@ -25,7 +25,7 @@ public class McSimpleItemAdapter extends McListAdapter {
      * @param context Application context
      * @param items   Collection of items, which should be shown
      */
-    public McSimpleItemAdapter(Context context, @NonNull ArrayList items) {
+    public McSimpleItemAdapter(Context context, @NonNull ArrayList<Item> items) {
         super(context, items, R.layout.i_list_simple);
     }
 

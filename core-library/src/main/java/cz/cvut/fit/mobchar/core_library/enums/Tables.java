@@ -16,8 +16,10 @@ public class Tables {
 
     public class DrDPlayer {
         public class CharacterTable {
-            public static final String ID = "_id";
+            public static final String ID = "id";
             public static final String NAME = "name";
+            public static final String XP = "xp";
+            public static final String CLASS = "class";
         }
     }
 }

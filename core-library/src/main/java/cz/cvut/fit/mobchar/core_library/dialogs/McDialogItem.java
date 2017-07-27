@@ -2,6 +2,8 @@ package cz.cvut.fit.mobchar.core_library.dialogs;
 
 import android.graphics.drawable.Drawable;
 
+import cz.cvut.fit.mobchar.core_library.adapters.simple_line.McSimpleItem;
+
 /**
  * Created by shanemat (FIT-CTU) on 23.7.2017 as object representing one
  * object shown in dialog.
@@ -11,13 +13,7 @@ import android.graphics.drawable.Drawable;
  * in any way.
  */
 
-public class McDialogItem {
-
-    /// icon of this item
-    private Drawable mIcon;
-
-    /// text of this item
-    private String mText;
+public class McDialogItem extends McSimpleItem {
 
     /// number identifying option linked with this item
     private int mOptionNumber;
@@ -30,18 +26,9 @@ public class McDialogItem {
      * @param optionNumber Identifying number for option linked with this item
      */
     public McDialogItem(Drawable icon, String text, int optionNumber) {
+        super(icon, text);
 
-        mIcon = icon;
-        mText = text;
         mOptionNumber = optionNumber;
-    }
-
-    public Drawable getIcon() {
-        return mIcon;
-    }
-
-    public String getText() {
-        return mText;
     }
 
     public int getOptionNumber() {

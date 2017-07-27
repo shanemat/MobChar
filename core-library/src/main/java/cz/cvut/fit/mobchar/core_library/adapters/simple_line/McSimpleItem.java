@@ -17,7 +17,7 @@ public class McSimpleItem extends McListItem {
     private Drawable mIcon;
 
     /// text, which should be shown in this item
-    private String mText;
+    protected String mText;
 
     /**
      * Classic constructor.

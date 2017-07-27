@@ -1,4 +1,4 @@
-package cz.cvut.fit.mobchar.core_library.enums.drd;
+package cz.cvut.fit.mobchar.core_library.enums.classes;
 
 import android.util.Log;
 
@@ -7,7 +7,7 @@ import cz.cvut.fit.mobchar.core_library.R;
 /**
  * Enum describing possible classes of DrD character.
  */
-public enum Classes {
+public enum ClassesDrD {
 
     ALCHEMIST(0),
     MAGICIAN(1),
@@ -26,7 +26,7 @@ public enum Classes {
      *
      * @param id ID of class
      */
-    Classes(int id) {
+    ClassesDrD(int id) {
         mId = id;
     }
 
@@ -40,7 +40,7 @@ public enum Classes {
      * @param id ID of enum member
      * @return Member of enum or for invalid ID
      */
-    public static Classes getClassFromId(int id) {
+    public static ClassesDrD getClassFromId(int id) {
         switch (id) {
             case 0:
                 return ALCHEMIST;
@@ -66,7 +66,7 @@ public enum Classes {
      * @param classes Class, which name should be returned
      * @return Returns localized name of given class.
      */
-    public static int getResourceId(Classes classes) {
+    public static int getResourceId(ClassesDrD classes) {
         switch (classes) {
             case ALCHEMIST:
                 return R.string.drd_class_alchemist;
@@ -92,7 +92,7 @@ public enum Classes {
      * @param classes Class, which name should be returned
      * @return Returns localized name of given class.
      */
-    public static int getIconResourceID(Classes classes) {
+    public static int getIconResourceID(ClassesDrD classes) {
         switch (classes) {
             case ALCHEMIST:
                 return R.drawable.ic_alchemist;

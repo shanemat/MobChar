@@ -3,6 +3,7 @@ package cz.cvut.fit.mobchar.core_library.activities.single_fragment;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
+import android.widget.Toast;
 
 import cz.cvut.fit.mobchar.core_library.R;
 import cz.cvut.fit.mobchar.core_library.activities.McActivity;
@@ -45,5 +46,15 @@ public abstract class McSingleFragmentActivity extends McActivity {
                         .add(R.id.fragment, fragment)
                         .commit();
         }
+    }
+
+    @Override
+    public void showMessage(final String message) {
+        runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                Toast.makeText(McSingleFragmentActivity.this, message, Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 }

@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_width="match_parent"/>
 
-    <cz.cvut.fit.mobchar.library.McSlidingTabLayout
+    <cz.cvut.fit.mobchar.core_library.activities.sliding_tabs.McSlidingTabLayout
         android:id="@+id/tabs"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -24,9 +24,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/margin_small"
-        android:gravity="center"
-        android:textStyle="bold"
-        android:textSize="@dimen/text_size_standard"
+        android:textSize="@dimen/text_size_big"
         tools:text="Text of this item"/>
 
 </LinearLayout>

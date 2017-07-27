@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/ic_add_white"
+        android:title="@string/menu_adventure_selection_add"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/imports"
+        android:icon="@drawable/ic_import_white"
+        android:title="@string/menu_adventure_selection_import"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/ic_about_white"
+        android:title="@string/menu_adventure_selection_about"
+        app:showAsAction="never"/>
+
+</menu>

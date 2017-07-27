@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_label_character">Postavy</string>
+
+    <string name="no_character_found_text">Nenalezeny žádné postavy… Klikni na mě pro vytvoření nové!</string>
+    <string name="no_character_module_found_text">Nenalezl jsem žádné balíčky, Pane!</string>
+
+    <string name="character_module_picking_title">Zvol modul</string>
+    <string name="character_options_title">Zvol možnost</string>
+
+    <string name="menu_character_selection_add">Vytvoř novou postavu</string>
+    <string name="menu_character_selection_import">Importuj postavu</string>
+    <string name="menu_character_selection_about">O aplikaci</string>
+
+    <string name="dialog_character_selection_option_delete">Smaž postavu</string>
+    <string name="dialog_character_selection_option_export">Exportuj postavu</string>
+
+    <string name="character_selection_error_toast_text">Tento modul nepodporuje aktivity tohoto typu!</string>
+</resources>

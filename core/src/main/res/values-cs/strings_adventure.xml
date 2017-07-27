@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_label_adventure">Dobrodružství</string>
+
+    <string name="no_adventure_found_text">Nenalezena žádná dobrodružství… Klikni na mě pro vytvoření nového!</string>
+    <string name="no_adventure_module_found_text">Nenalezl jsem žádné balíčky, Pane!</string>
+
+    <string name="adventure_module_picking_title">Zvol modul</string>
+    <string name="adventure_options_title">Zvol možnost</string>
+
+    <string name="menu_adventure_selection_add">Vytvoř nové dobrodružství</string>
+    <string name="menu_adventure_selection_import">Importuj dobrodružství</string>
+    <string name="menu_adventure_selection_about">O aplikaci</string>
+
+    <string name="dialog_adventure_selection_option_delete">Smaž dobrodružství</string>
+    <string name="dialog_adventure_selection_option_export">Exportuj dobrodružství</string>
+
+    <string name="adventure_selection_error_toast_text">Tento modul nepodporuje aktivity tohoto typu!</string>
+</resources>

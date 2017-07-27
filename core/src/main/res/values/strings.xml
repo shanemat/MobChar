@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">MobChar</string>
+    <string name="core_name">Core</string>
+
+    <string name="about_label">About application</string>
+    <string name="about_text">This is the core of MobChar application. It provides the ability
+                                to access MobChar modules for role playing games. \n\n
+
+                                There is no way you can access games through core, if you
+                                do not have appropriate package installed, so in case you
+                                cannot see desired game, please visit Google Play store
+                                and download it.</string>
+    <string name="version_number">1.0.0</string>
 </resources>

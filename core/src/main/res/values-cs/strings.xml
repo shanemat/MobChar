@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">MobChar</string>
+    <string name="core_name">Jádro</string>
+
+    <string name="about_label">O aplikaci</string>
+    <string name="about_text">Toto je jádro aplikace MobChar, které umožňuje přístup
+                                k balíčkům jednotlivých her na hrdiny. \n\n
+
+                                Samotné jádro obstarává pouze přístup k jednotlivým balíčkům,
+                                pokud tedy nevidíte požadovanou hru, navštivte prosím obchod
+                                Google Play a stáhněte si požadovaný balíček.</string>
+    <string name="version_number">1.0.0</string>
 </resources>

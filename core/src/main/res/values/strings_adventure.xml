@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_label_adventure">Adventures</string>
+
+    <string name="no_adventure_found_text">No adventures found… Click me to start new one!</string>
+    <string name="no_adventure_module_found_text">No adventure modules found, Master!</string>
+
+    <string name="adventure_module_picking_title">Pick module</string>
+    <string name="adventure_options_title">Choose option</string>
+
+    <string name="menu_adventure_selection_add">Create new adventure</string>
+    <string name="menu_adventure_selection_import">Import adventure</string>
+    <string name="menu_adventure_selection_about">About application</string>
+
+    <string name="dialog_adventure_selection_option_delete">Delete adventure</string>
+    <string name="dialog_adventure_selection_option_export">Export adventure</string>
+
+    <string name="adventure_selection_error_toast_text">This type of activity is not supported by this module!</string>
+</resources>

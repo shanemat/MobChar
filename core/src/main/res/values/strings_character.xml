@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_label_character">Characters</string>
+
+    <string name="no_character_found_text">No characters found… Click me to create new one!</string>
+    <string name="no_character_module_found_text">No character modules found, Master!</string>
+
+    <string name="character_module_picking_title">Pick module</string>
+    <string name="character_options_title">Choose option</string>
+
+    <string name="menu_character_selection_add">Create new character</string>
+    <string name="menu_character_selection_import">Import character</string>
+    <string name="menu_character_selection_about">About application</string>
+
+    <string name="dialog_character_selection_option_delete">Delete character</string>
+    <string name="dialog_character_selection_option_export">Export character</string>
+
+    <string name="character_selection_error_toast_text">This type of activity is not supported by this module!</string>
+</resources>
